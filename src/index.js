@@ -1,5 +1,5 @@
-import pageLoad from './pageLoad';
+import inititalLoad from './pageLoad';
 
 //load page
 
-pageLoad();
+inititalLoad();

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Bubblegum+Sans&family=Carter+One&family=Kaushan+Script&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Pixelify+Sans&family=Poppins:wght@100&family=Roboto&family=Rubik:wght@400;500;600;700&family=Sofia+Sans+Semi+Condensed:ital,wght@1,300&display=swap');
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  background-color: #f3eeea;
+  /* background-image: url(../src/photo-1552566626-52f8b828add9.avif);
+  background-repeat: no-repeat; */
+}
+
+.tab {
+  cursor: pointer;
+}
+
+/* Header styles */
+#header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  font-size: 40px;
+  color: #65451f;
+}
+h1 {
+  margin-bottom: 50px;
+}
+
+p {
+  margin-top: 100px;
+  font-size: 30px;
+  text-decoration: dotted;
+}
+/* Main body styles */
+#content {
+  text-align: center;
+}
+
+#home-btn:hover {
+  color: black;
+}
+#menu-btn:hover {
+  color: black;
+}
+#contact-btn:hover {
+  color: black;
+}
