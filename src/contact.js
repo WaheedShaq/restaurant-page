@@ -10,7 +10,7 @@ const createContactPage = () => {
 
   const headingInput = document.createElement('input');
   headingInput.type = 'text';
-  headingInput.placeholder = 'Enter Heading';
+  headingInput.placeholder = 'Enter Email address';
   form.appendChild(headingInput);
 
   const addressInput = document.createElement('input');
@@ -19,7 +19,7 @@ const createContactPage = () => {
   form.appendChild(addressInput);
 
   const phoneInput = document.createElement('input');
-  phoneInput.type = 'text';
+  phoneInput.type = 'number';
   phoneInput.placeholder = 'Enter phone number';
   form.appendChild(phoneInput);
 
@@ -27,6 +27,9 @@ const createContactPage = () => {
   submitButton.type = 'submit';
   submitButton.value = 'Submit';
   form.appendChild(submitButton);
+
+  pageContent.appendChild(form);
+  content.appendChild(pageContent);
 };
 
 export default createContactPage;
